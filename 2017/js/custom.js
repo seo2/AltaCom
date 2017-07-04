@@ -1560,8 +1560,8 @@ function initialize()
     }
   ];
 
-  var myLatLng1 = {lat: -33.4452642, lng: -70.6299445};	
-  var myLatLng2 = {lat: -12.1067462, lng: -77.0416425};	
+  var myLatLng1 = {lat: -33.4454589, lng: -70.6275955};	
+  var myLatLng2 = {lat: -12.1067515, lng: -77.0394485};	
   var styledMap = new google.maps.StyledMapType(styles, {name: "Styled Map"});
 
   map = new google.maps.Map(document.getElementById('map-canvas'), {
@@ -1595,8 +1595,8 @@ function initialize()
   
   	marker.setMap(map);
   	marker2.setMap(map);
-	url = "https://www.google.com/maps/place/Modo+Publicidad+Ltda/@-33.4454544,-70.6297842,17z/data=!3m1!4b1!4m5!3m4!1s0x9662cbf1adfc9305:0x377b9704ba1e871e!8m2!3d-33.4454589!4d-70.6275955?hl=es-ES";
-	url2 = "https://www.google.cl/maps/place/Av.+Camino+Real+1225,+San+Isidro+15073,+Per%C3%BA/@-12.1067462,-77.0416425,17z/data=!3m1!4b1!4m5!3m4!1s0x9105c84735b31ba1:0xad6ea4584f6e391a!8m2!3d-12.1067515!4d-77.0394485?hl=es";
+	url = "https://www.google.com/maps/place/Modo+Publicidad+Ltda/@-33.4454589,-70.6297842,17z/data=!4m12!1m6!3m5!1s0x9662cbf1adfc9305:0x377b9704ba1e871e!2sModo+Publicidad+Ltda!8m2!3d-33.4454589!4d-70.6275955!3m4!1s0x9662cbf1adfc9305:0x377b9704ba1e871e!8m2!3d-33.4454589!4d-70.6275955?hl=es-ES";
+	url2 = "https://www.google.cl/maps/place/Av.+Camino+Real+1225,+San+Isidro+15073,+Per%C3%BA/@-12.1067515,-77.0416372,17z/data=!4m13!1m7!3m6!1s0x9105c84735b31ba1:0xad6ea4584f6e391a!2sAv.+Camino+Real+1225,+San+Isidro+15073,+Per%C3%BA!3b1!8m2!3d-12.1067515!4d-77.0394485!3m4!1s0x9105c84735b31ba1:0xad6ea4584f6e391a!8m2!3d-12.1067515!4d-77.0394485?hl=es";
 	marker.addListener('click', function() {
 		window.open(url, '_blank');
 	});	
@@ -1625,14 +1625,14 @@ $(document).ready(function ()
 	
     $("#1").on('click', function ()
     {
-	  newLocation(-33.4452642,-70.6299445);
+	  newLocation(-33.4454589,-70.6275955);
 	  $('.btn-main').removeClass('activo');
 	  $(this).addClass('activo');
 	});
 	
 	$("#2").on('click', function ()
     {
-	  newLocation(-12.1067462,-77.0416425);
+	  newLocation(-12.1067515,-77.0394485);
 	  $('.btn-main').removeClass('activo');
 	  $(this).addClass('activo');
 	});

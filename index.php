@@ -883,8 +883,6 @@ $detect = new Mobile_Detect;
         </div>
         <!-- / content-wrapper-->
 
-
-
         <a href="#" class="back-to-top"><i class="fa fa-long-arrow-up"></i></a>
 
     </div>
@@ -925,7 +923,7 @@ $detect = new Mobile_Detect;
     
     <script src="2017/js/retina.min.js"></script>
     <script src="2017/assets/instashow/jquery.instashow.min.js"></script>
-    <script src="2017/js/custom.js?v=1.4.4"></script>
+    <script src="2017/js/custom.js?v=1.4.7"></script>
 
 </body>
 
