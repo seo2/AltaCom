@@ -664,7 +664,12 @@ $detect = new Mobile_Detect;
 									  			<div class="logocliente">
 													<a href="https://thenorthface.cl/" target="_blank"><img src="2017/assets/img/clientes/LOGO_TNF.png" class="img-responsive grayscale"></a>
 									  			</div>
-											</div>  
+											</div>    
+											<div class="col-md-15">
+												<div class="logocliente">
+													<a href="https://www.rimowa.com/" target="_blank"><img src="2017/assets/img/clientes/logo-rimowa.png" class="img-responsive grayscale"></a>
+												</div>
+											</div> <!-- logocliente -->	
 		                   		  		</div>
 	                   		  		</li>
 									
@@ -900,7 +905,6 @@ $detect = new Mobile_Detect;
     <script src="2017/js/jquery.bxslider.min.js"></script>
     <script src="2017/js/masterslider.min.js"></script>
 
-    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfb8y5fLrqf0xiysVqZqPzqAghs6hKPu8" async defer></script>
     <script src="2017/js/velocity.min.js"></script>
     <script src="2017/js/jquery.animsition.js"></script>
