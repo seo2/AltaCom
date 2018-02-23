@@ -32,7 +32,7 @@ $detect = new Mobile_Detect;
     <link href="2017/revolution/css/layers.css" rel="stylesheet">
     <link href="2017/revolution/css/navigation.css" rel="stylesheet">
     
-	<link href="2017/assets/instashow/jquery.instashow.css" rel="stylesheet">
+<!-- 	<link href="2017/assets/instashow/jquery.instashow.css" rel="stylesheet"> -->
 
     <link href="2017/css/style.css" rel="stylesheet">
 
@@ -169,7 +169,7 @@ $detect = new Mobile_Detect;
 	if ( $detect->isMobile() ) {
 ?>
                         <div data-is
-						    data-is-api="assets/instashow/api/"
+						    data-is-api="2017/assets/instashow2/api/"
 							<?  if($_GET['hashtag']){ ?>
 							data-is-source="#<?= $_GET['hashtag']; ?>" 
 							data-is-filter-only="@altabrandpr"
@@ -203,7 +203,7 @@ $detect = new Mobile_Detect;
 	}else{ 
 ?>
                         <div data-is
-						    data-is-api="2017/assets/instashow/api/"
+						    data-is-api="2017/assets/instashow2/api/"
 							<?  if($_GET['hashtag']){ ?>
 							data-is-source="#<?= $_GET['hashtag']; ?>" 
 							data-is-filter-only="@altabrandpr"
@@ -255,7 +255,7 @@ $detect = new Mobile_Detect;
 	
 	                        <div class="col-md-12 text-center">
 	
-	                            <h1 class="section-header">Clientes <span class="underline animated" data-animation="fullWidth"></span></h1>
+	                            <h1 class="section-header">Clientes 2018<span class="underline animated" data-animation="fullWidth"></span></h1>
 	
 	                        </div>
 	                        <!-- / col-md-12 -->
@@ -267,9 +267,7 @@ $detect = new Mobile_Detect;
                             <!-- end col-md-12 -->
 							<?php if ( $detect->isMobile() ) { ?>
 							<div id="clientes" class="col-sm-12">
-						  		<div class="col-xs-6"><div class="logocliente">
-									<a href="http://www.absolut.com/cl/" target="_blank"><img src="2017/assets/img/clientes/LOGO_ABSOLUT.png" class="img-responsive grayscale"></a>
-								</div></div> <!-- logocliente -->	   
+   
 								<div class="col-xs-6"><div class="logocliente">
 									<a href="http://www.adidas.cl/" target="_blank"><img src="2017/assets/img/clientes/LOGO_ADIDAS.png" class="img-responsive grayscale"></a>
 								</div></div> <!-- logocliente -->	   
@@ -290,7 +288,10 @@ $detect = new Mobile_Detect;
 								</div></div> <!-- logocliente -->	   
 								<div class="col-xs-6"><div class="logocliente">
 									<a href="http://www.ballantines.com/cl" target="_blank"><img src="2017/assets/img/clientes/LOGO_BALLANTINE'S.png" class="img-responsive grayscale"></a>
-								</div></div> <!-- logocliente -->	   
+								</div></div> <!-- logocliente -->	    
+								<div class="col-xs-6"><div class="logocliente">
+									<a href="https://www.bci.cl/" target="_blank"><img src="2017/assets/img/clientes/bci.png" class="img-responsive grayscale"></a>
+								</div></div> <!-- logocliente -->  
 								<div class="col-xs-6"><div class="logocliente">
 									<a href="http://www.bresler.cl/" target="_blank"><img src="2017/assets/img/clientes/LOGO_BRESLER.png" class="img-responsive grayscale"></a>
 								</div></div> <!-- logocliente -->	   
@@ -301,7 +302,7 @@ $detect = new Mobile_Detect;
 									<a href="http://es.burtsbees.com/" target="_blank"><img src="2017/assets/img/clientes/LOGO_BURTS_BEES.png?v=2" class="img-responsive grayscale"></a>
 								</div></div> <!-- logocliente -->	   
 								<div class="col-xs-6"><div class="logocliente">
-									<a href="http://www.carters.com/" target="_blank"><img src="2017/assets/img/clientes/LOGO_CARTER'S.png" class="img-responsive grayscale"></a>
+									<a href="https://www.carolinaherrera.com/" target="_blank"><img src="2017/assets/img/clientes/ch.png" class="img-responsive grayscale"></a>
 								</div></div> <!-- logocliente -->	   
 								<div class="col-xs-6"><div class="logocliente">
 									<a href="https://www.chivas.com/es-ar/the-venture" target="_blank"><img src="2017/assets/img/clientes/LOGO_CHIVAS.png" class="img-responsive grayscale"></a>
@@ -322,10 +323,13 @@ $detect = new Mobile_Detect;
 									<a href="http://www.drive.cl/" target="_blank"><img src="2017/assets/img/clientes/LOGO_DRIVE.png" class="img-responsive grayscale"></a>
 								</div></div> <!-- logocliente -->	   
 								<div class="col-xs-6"><div class="logocliente">
+									<a href="http://econopticas.com/chile/" target="_blank"><img src="2017/assets/img/clientes/econopticas.png" class="img-responsive grayscale"></a>
+								</div></div> <!-- logocliente -->	   
+								<div class="col-xs-6"><div class="logocliente">
 									<a href="http://www.foxsports.cl/" target="_blank"><img src="2017/assets/img/clientes/LOGO_FOX_SPORTS.png" class="img-responsive grayscale"></a>
 								</div></div> <!-- logocliente -->	   
 								<div class="col-xs-6"><div class="logocliente">
-									<a href="http://www.gacel.cl/" target="_blank"><img src="2017/assets/img/clientes/LOGO_GACEL.png" class="img-responsive grayscale"></a>
+									<a href="http://www.fox.com/" target="_blank"><img src="2017/assets/img/clientes/fox.png" class="img-responsive grayscale"></a>
 								</div></div> <!-- logocliente -->	   
 								<div class="col-xs-6"><div class="logocliente">
 									<a href="http://www.gapchile.com/es/home" target="_blank"><img src="2017/assets/img/clientes/LOGO_GAP.png" class="img-responsive grayscale"></a>
@@ -336,15 +340,19 @@ $detect = new Mobile_Detect;
 								<div class="col-xs-6"><div class="logocliente">
 									<a href="http://www.paris.cl/tienda/es/paris" target="_blank"><img src="2017/assets/img/clientes/LOGO_GREENFIELD.png" class="img-responsive grayscale"></a>
 								</div></div> <!-- logocliente -->	   
-								<div class="col-xs-6"><div class="logocliente">
-									<a href="http://www.guante.cl/" target="_blank"><img src="2017/assets/img/clientes/LOGO_GUANTE.png" class="img-responsive grayscale"></a>
-								</div></div> <!-- logocliente -->	   
+   
 								<div class="col-xs-6"><div class="logocliente">
 									<a href="http://www.hm.com/cl" target="_blank"><img src="2017/assets/img/clientes/LOGO_H&M.png" class="img-responsive grayscale"></a>
 								</div></div> <!-- logocliente -->	   
 								<div class="col-xs-6"><div class="logocliente">
 									<a href="http://www.hellmanns.cl/" target="_blank"><img src="2017/assets/img/clientes/LOGO_HELLMANS.png" class="img-responsive grayscale"></a>
 								</div></div> <!-- logocliente -->	   
+								<div class="col-xs-6"><div class="logocliente">
+									<a href="http://www.jamesonwhiskey.com/cl/" target="_blank"><img src="2017/assets/img/clientes/jameson.png" class="img-responsive grayscale"></a>
+								</div></div> <!-- logocliente -->	
+								<div class="col-xs-6"><div class="logocliente">
+									<a href="https://www.jeanpaulgaultier.com/" target="_blank"><img src="2017/assets/img/clientes/jpg.png" class="img-responsive grayscale"></a>
+								</div></div> <!-- logocliente -->	
 								<div class="col-xs-6"><div class="logocliente">
 									<a href="http://johnson.cl/" target="_blank"><img src="2017/assets/img/clientes/LOGO_JHONSON.png" class="img-responsive grayscale"></a>
 								</div></div> <!-- logocliente -->	   
@@ -356,15 +364,18 @@ $detect = new Mobile_Detect;
 								</div></div> <!-- logocliente -->	   
 								<div class="col-xs-6"><div class="logocliente">
 									<a href="http://www.paris.cl/tienda/es/paris" target="_blank"><img src="2017/assets/img/clientes/LOGO_MARITTIMO.png" class="img-responsive grayscale"></a>
-								</div></div> <!-- logocliente -->	  
+								</div></div> <!-- logocliente -->	    
 								<div class="col-xs-6"><div class="logocliente">
-									<a href="https://www.rimowa.com/" target="_blank"><img src="2017/assets/img/clientes/logo-rimowa.png" class="img-responsive grayscale"></a>
-								</div></div> <!-- logocliente -->	   
+									<a href="https://www.ninaricci.com/es-INT/" target="_blank"><img src="2017/assets/img/clientes/nina-ricci.png" class="img-responsive grayscale"></a>
+								</div></div> <!-- logocliente -->	  
 								<div class="col-xs-6"><div class="logocliente">
 									<a href="https://www.omo.cl/" target="_blank"><img src="2017/assets/img/clientes/LOGO_OMO.png" class="img-responsive grayscale"></a>
 								</div></div> <!-- logocliente -->	   
 								<div class="col-xs-6"><div class="logocliente">
 									<a href="http://www.paris.cl/tienda/es/paris" target="_blank"><img src="2017/assets/img/clientes/LOGO_OPPOSITE.png" class="img-responsive grayscale"></a>
+								</div></div> <!-- logocliente -->	   
+								<div class="col-xs-6"><div class="logocliente">
+									<a href="https://www.pacorabanne.com/" target="_blank"><img src="2017/assets/img/clientes/pacorabanne.png" class="img-responsive grayscale"></a>
 								</div></div> <!-- logocliente -->	   
 								<div class="col-xs-6"><div class="logocliente">
 									<a href="http://www.paris.cl/tienda/es/paris" target="_blank"><img src="2017/assets/img/clientes/LOGO_PARIS.png" class="img-responsive grayscale"></a>
@@ -376,16 +387,22 @@ $detect = new Mobile_Detect;
 									<a href="http://mallportal.cl/" target="_blank"><img src="2017/assets/img/clientes/LOGO_PORTAL.png" class="img-responsive grayscale"></a>
 								</div></div> <!-- logocliente -->	   
 								<div class="col-xs-6"><div class="logocliente">
-									<a href="http://www.guante.cl/" target="_blank"><img src="2017/assets/img/clientes/LOGO_PULSO.png" class="img-responsive grayscale"></a>
-								</div></div> <!-- logocliente -->	   
+									<a href="https://www.puig.com/en/" target="_blank"><img src="2017/assets/img/clientes/puig.png" class="img-responsive grayscale"></a>
+								</div></div> <!-- logocliente -->	
 								<div class="col-xs-6"><div class="logocliente">
 									<a href="http://www.quix.cl/home/" target="_blank"><img src="2017/assets/img/clientes/LOGO_QUIX.png" class="img-responsive grayscale"></a>
 								</div></div> <!-- logocliente -->	   
 								<div class="col-xs-6"><div class="logocliente">
 									<a href="http://www.rexona.cl/" target="_blank"><img src="2017/assets/img/clientes/LOGO_REXONA.png" class="img-responsive grayscale"></a>
-								</div></div> <!-- logocliente -->	   
+								</div></div> <!-- logocliente -->	     
+								<div class="col-xs-6"><div class="logocliente">
+									<a href="https://www.rimowa.com/" target="_blank"><img src="2017/assets/img/clientes/logo-rimowa.png" class="img-responsive grayscale"></a>
+								</div></div> <!-- logocliente -->	
 								<div class="col-xs-6"><div class="logocliente">
 									<a href="http://www.daewoo.cl/" target="_blank"><img src="2017/assets/img/clientes/daewoo.png" class="img-responsive grayscale"></a>
+								</div></div> <!-- logocliente -->	
+								<div class="col-xs-6"><div class="logocliente">
+									<a href="https://www.ray-ban.com/" target="_blank"><img src="2017/assets/img/clientes/rayban.png" class="img-responsive grayscale"></a>
 								</div></div> <!-- logocliente -->	   
 								<div class="col-xs-6"><div class="logocliente">
 									<a href="http://www.stives.com/" target="_blank"><img src="2017/assets/img/clientes/LOGO_ST_IVES.png" class="img-responsive grayscale"></a>
@@ -407,7 +424,10 @@ $detect = new Mobile_Detect;
 								</div></div>   
 								<div class="col-xs-6"><div class="logocliente">
 									<a href="https://www.sonymobile.com/cl/" target="_blank"><img src="2017/assets/img/clientes/LOGO_XPERIA.png" class="img-responsive grayscale"></a>
-								</div></div> <!-- logocliente -->									
+								</div></div> <!-- logocliente -->	
+								<div class="col-xs-6"><div class="logocliente">
+									<a href="https://www.ubereats.com/" target="_blank"><img src="2017/assets/img/clientes/ubereats.png" class="img-responsive grayscale"></a>
+								</div></div> <!-- logocliente -->								
 							</div>
 							<?php }else{ ?>
                             <div class="col-md-12">
@@ -421,11 +441,7 @@ $detect = new Mobile_Detect;
 									data-bx-speed="1900">
 	                   		  		<li>
 		                   		  		<div class="row">
-			                   		  		<div class="col-md-15">
-									  			<div class="logocliente">
-													<a href="http://www.absolut.com/cl/" target="_blank"><img src="2017/assets/img/clientes/LOGO_ABSOLUT.png" class="img-responsive grayscale"></a>
-									  			</div>
-											</div>  
+
 											<div class="col-md-15">
 									  			<div class="logocliente">
 													<a href="http://www.adidas.cl/mujer" target="_blank"><img src="2017/assets/img/clientes/LOGO_ADIDAS.png" class="img-responsive grayscale"></a>
@@ -471,20 +487,20 @@ $detect = new Mobile_Detect;
 													<a href="https://www.brooksbrothers.cl/" target="_blank"><img src="2017/assets/img/clientes/LOGO_BROOKS_BROTHERS.png" class="img-responsive grayscale"></a>
 									  			</div>
 											</div> 
+			                   		  		<div class="col-md-15">
+									  			<div class="logocliente">
+													<a href="http://es.burtsbees.com/" target="_blank"><img src="2017/assets/img/clientes/LOGO_BURTS_BEES.png?v=2" class="img-responsive grayscale"></a>
+									  			</div>
+											</div>
 		                   		  		</div>
 								  		
 	                   		  		</li>
 									 
 	                   		  		<li>
-		                   		  		<div class="row">	
-			                   		  		<div class="col-md-15">
-									  			<div class="logocliente">
-													<a href="http://es.burtsbees.com/" target="_blank"><img src="2017/assets/img/clientes/LOGO_BURTS_BEES.png?v=2" class="img-responsive grayscale"></a>
-									  			</div>
-											</div>  
+		                   		  		<div class="row">	  
 											<div class="col-md-15">
 									  			<div class="logocliente">
-													<a href="http://www.miladysenorita.cl/" target="_blank"><img src="2017/assets/img/clientes/MLS-01.png" class="img-responsive grayscale"></a>
+													<a href="https://www.carolinaherrera.com/" target="_blank"><img src="2017/assets/img/clientes/ch.png" class="img-responsive grayscale"></a>
 									  			</div>
 											</div>  
 											<div class="col-md-15">
@@ -524,18 +540,23 @@ $detect = new Mobile_Detect;
 											</div>  
 											<div class="col-md-15">
 									  			<div class="logocliente">
-													<a href="http://www.gacel.cl/" target="_blank"><img src="2017/assets/img/clientes/LOGO_GACEL.png" class="img-responsive grayscale"></a>
+													<a href="http://www.fox.com/" target="_blank"><img src="2017/assets/img/clientes/fox.png" class="img-responsive grayscale"></a>
 									  			</div>
 											</div>  
+			                   		  		<div class="col-md-15">
+									  			<div class="logocliente">
+													<a href="http://www.gapchile.com/es/home" target="_blank"><img src="2017/assets/img/clientes/LOGO_GAP.png" class="img-responsive grayscale"></a>
+									  			</div>
+											</div> 
 		                   		  		</div>
 					   		  		
 									</li>
 
 	                   		  		<li>
-		                   		  		<div class="row">
-			                   		  		<div class="col-md-15">
+		                   		  		<div class="row"> 
+											<div class="col-md-15">
 									  			<div class="logocliente">
-													<a href="http://www.gapchile.com/es/home" target="_blank"><img src="2017/assets/img/clientes/LOGO_GAP.png" class="img-responsive grayscale"></a>
+												<a href="https://bci.cl/" target="_blank"><img src="2017/assets/img/clientes/bci.png" class="img-responsive grayscale"></a>
 									  			</div>
 											</div>  
 											<div class="col-md-15">
@@ -545,12 +566,7 @@ $detect = new Mobile_Detect;
 											</div>  
 											<div class="col-md-15">
 									  			<div class="logocliente">
-												<a href="http://www.oporto.cl/" target="_blank"><img src="2017/assets/img/clientes/oporto.png" class="img-responsive grayscale"></a>
-									  			</div>
-											</div>  
-											<div class="col-md-15">
-									  			<div class="logocliente">
-												<a href="http://www.guante.cl/" target="_blank"><img src="2017/assets/img/clientes/LOGO_GUANTE.png" class="img-responsive grayscale"></a>
+												<a href="https://www.pacorabanne.com/en/" target="_blank"><img src="2017/assets/img/clientes/pacorabanne.png" class="img-responsive grayscale"></a>
 									  			</div>
 											</div>  
 											<div class="col-md-15">
@@ -565,12 +581,17 @@ $detect = new Mobile_Detect;
 											</div>  
 											<div class="col-md-15">
 									  			<div class="logocliente">
+												<a href="https://www.jeanpaulgaultier.com" target="_blank"><img src="2017/assets/img/clientes/jpg.png" class="img-responsive grayscale"></a>
+									  			</div>
+											</div>  
+											<div class="col-md-15">
+									  			<div class="logocliente">
 												<a href="http://johnson.cl/" target="_blank"><img src="2017/assets/img/clientes/LOGO_JHONSON.png" class="img-responsive grayscale"></a>
 									  			</div>
 											</div>  
 											<div class="col-md-15">
 									  			<div class="logocliente">
-												<a href="https://www.jomalone.com/" target="_blank"><img src="2017/assets/img/clientes/brandintrologo-jomalone.png" class="img-responsive grayscale"></a>
+												<a href="https://www.ninaricci.com/es-INT/" target="_blank"><img src="2017/assets/img/clientes/nina-ricci.png" class="img-responsive grayscale"></a>
 									  			</div>
 											</div>  
 											<div class="col-md-15">
@@ -616,7 +637,7 @@ $detect = new Mobile_Detect;
 											</div>  
 											<div class="col-md-15">
 									  			<div class="logocliente">
-													<a href="http://www.guante.cl/" target="_blank"><img src="2017/assets/img/clientes/LOGO_PULSO.png" class="img-responsive grayscale"></a>
+													<a href="http://www.puig.com/" target="_blank"><img src="2017/assets/img/clientes/puig.png" class="img-responsive grayscale"></a>
 									  			</div>
 											</div>  
 											<div class="col-md-15">
@@ -644,7 +665,17 @@ $detect = new Mobile_Detect;
 									</li>
 									
 	                   		  		<li>
-		                   		  		<div class="row"> 
+		                   		  		<div class="row">  
+											<div class="col-md-15">
+												<div class="logocliente">
+													<a href="https://www.ray-ban.com" target="_blank"><img src="2017/assets/img/clientes/rayban.png" class="img-responsive grayscale"></a>
+												</div>
+											</div>
+											<div class="col-md-15">
+												<div class="logocliente">
+													<a href="http://www.jamesonwhiskey.com/cl/" target="_blank"><img src="2017/assets/img/clientes/jameson.png" class="img-responsive grayscale"></a>
+												</div>
+											</div>
 											<div class="col-md-15">
 												<div class="logocliente">
 													<a href="http://mbfashionweek.com/" target="_blank"><img src="2017/assets/img/clientes/mercedesbenzfw.jpg" class="img-responsive grayscale"></a>
@@ -657,7 +688,7 @@ $detect = new Mobile_Detect;
 											</div>  
 											<div class="col-md-15">
 									  			<div class="logocliente">
-													<a href="http://www.nyxcosmetics.es/" target="_blank"><img src="2017/assets/img/clientes/NYX_logo.png" class="img-responsive grayscale"></a>
+													<a href="http://econopticas.com/chile/" target="_blank"><img src="2017/assets/img/clientes/econopticas.png" class="img-responsive grayscale"></a>
 									  			</div>
 											</div>  
 											<div class="col-md-15">
@@ -667,9 +698,9 @@ $detect = new Mobile_Detect;
 											</div>    
 											<div class="col-md-15">
 												<div class="logocliente">
-													<a href="https://www.rimowa.com/" target="_blank"><img src="2017/assets/img/clientes/logo-rimowa.png" class="img-responsive grayscale"></a>
+													<a href="https://www.ubereats.com/" target="_blank"><img src="2017/assets/img/clientes/ubereats.png" class="img-responsive grayscale"></a>
 												</div>
-											</div> <!-- logocliente -->	
+											</div> 
 		                   		  		</div>
 	                   		  		</li>
 									
@@ -731,7 +762,7 @@ $detect = new Mobile_Detect;
 					                <ul class="mm-menu__list">
 					                    <li>Emilio Vaisse 350</li>
 					                    <li>Providencia, Santiago</li>
-					                    <li>+56 2 2456 789</li>
+					                    <li>+56 2 2953 0379</li>
 					                </ul>
 					
 					                <ul class="mm-menu__social">
@@ -747,7 +778,7 @@ $detect = new Mobile_Detect;
 					                <ul class="mm-menu__list">
 					                    <li>Av. Camino Real 1225, Of. 502</li>
 					                    <li>San Isidro, Lima</li>
-<!-- 					                    <li>+123 456 789</li> -->
+					                    <li>+51 497 6445</li>
 					                </ul>
 					
 					                <ul class="mm-menu__social">
@@ -923,10 +954,10 @@ $detect = new Mobile_Detect;
     <script type="text/javascript" src="2017/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.3/handlebars.runtime.min.js"></script>
-    <script src="2017/assets/instashow/jquery.instashow.min.js"></script>
     
     <script src="2017/js/retina.min.js"></script>
-    <script src="2017/assets/instashow/jquery.instashow.min.js"></script>
+<!--     <script src="2017/assets/instashow/jquery.instashow.min.js"></script> -->
+	<script src="2017/assets/instashow2/elfsight-instagram-feed.js"></script>
     <script src="2017/js/custom.js?v=1.4.7"></script>
 
 </body>
